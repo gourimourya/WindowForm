@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -147,23 +162,23 @@
     <Compile Include="fee.Designer.cs">
       <DependentUpon>fee.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="login simple.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="login simple.Designer.cs">
+      <DependentUpon>login simple.cs</DependentUpon>
     </Compile>
-    <Compile Include="form10.cs">
+    <Compile Include="library management system.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form10.Designer.cs">
-      <DependentUpon>form10.cs</DependentUpon>
+    <Compile Include="library management system.Designer.cs">
+      <DependentUpon>library management system.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form11.cs">
+    <Compile Include="bank managemnt system.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form11.Designer.cs">
-      <DependentUpon>Form11.cs</DependentUpon>
+      <DependentUpon>bank managemnt system.cs</DependentUpon>
     </Compile>
     <Compile Include="Item.cs">
       <SubType>Form</SubType>
@@ -201,47 +216,41 @@
     <Compile Include="LoginHard.Designer.cs">
       <DependentUpon>LoginHard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="show data simple.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="show data simple.Designer.cs">
+      <DependentUpon>show data simple.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="student register form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="student register form.Designer.cs">
+      <DependentUpon>student register form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="student registration.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="student registration.Designer.cs">
+      <DependentUpon>student registration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5.cs">
+    <Compile Include="school management system.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <Compile Include="school management system.Designer.cs">
+      <DependentUpon>school management system.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form6.cs">
+    <Compile Include="student information.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6.Designer.cs">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <Compile Include="student information.Designer.cs">
+      <DependentUpon>student information.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form7.cs">
+    <Compile Include="hotel management system.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7.Designer.cs">
-      <DependentUpon>Form7.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form8.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form8.Designer.cs">
-      <DependentUpon>Form8.cs</DependentUpon>
+    <Compile Include="hotel management system.Designer.cs">
+      <DependentUpon>hotel management system.cs</DependentUpon>
     </Compile>
     <Compile Include="Guest.cs">
       <SubType>Form</SubType>
@@ -312,6 +321,9 @@
     <EmbeddedResource Include="Account.resx">
       <DependentUpon>Account.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="bank managemnt system.resx">
+      <DependentUpon>bank managemnt system.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bill.resx">
       <DependentUpon>Bill.cs</DependentUpon>
     </EmbeddedResource>
@@ -357,14 +369,14 @@
     <EmbeddedResource Include="fee.resx">
       <DependentUpon>fee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="login simple.resx">
+      <DependentUpon>login simple.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form10.resx">
-      <DependentUpon>form10.cs</DependentUpon>
+    <EmbeddedResource Include="library management system.resx">
+      <DependentUpon>library management system.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form11.resx">
-      <DependentUpon>Form11.cs</DependentUpon>
+      <DependentUpon>bank managemnt system.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Item.resx">
       <DependentUpon>Item.cs</DependentUpon>
@@ -384,26 +396,23 @@
     <EmbeddedResource Include="LoginHard.resx">
       <DependentUpon>LoginHard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="show data simple.resx">
+      <DependentUpon>show data simple.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="student register form.resx">
+      <DependentUpon>student register form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <EmbeddedResource Include="student registration.resx">
+      <DependentUpon>student registration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <EmbeddedResource Include="school management system.resx">
+      <DependentUpon>school management system.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form6.resx">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <EmbeddedResource Include="student information.resx">
+      <DependentUpon>student information.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7.resx">
-      <DependentUpon>Form7.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form8.resx">
-      <DependentUpon>Form8.cs</DependentUpon>
+    <EmbeddedResource Include="hotel management system.resx">
+      <DependentUpon>hotel management system.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Guest.resx">
       <DependentUpon>Guest.cs</DependentUpon>
@@ -511,6 +520,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\images %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

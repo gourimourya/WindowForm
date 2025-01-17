@@ -47,5 +47,11 @@ namespace WindowForm
             Employee employeeInfo = new Employee();
             employeeInfo.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Dashboard dashboardInfo = new Dashboard();
+            dashboardInfo.Show();
+        }
     }
 }
